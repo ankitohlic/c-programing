@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+int a,b;
+int n;
+printf("plz.. enter two number");
+scanf(""%d%d",&a&b);
+printf("1. Addition\n");
+printf("2. Substraction\n");
+printf("3. Multiplication\n");
+printf("4. Division\n");
+scanf("%d",&n);
+switch(n)
+{
+case 1: printf("%d+%d=%d",a,b,a+b);break;
+case 2: printf("%d-%d=%d",a,b,a-b);break;
+case 3: printf("%d*%d=%d",a,b,a*b);break;
+case 4: printf("%d/%d=%d",a,b,a/b);break;
+default:
+printf("incorrect choice");
+}
+}
